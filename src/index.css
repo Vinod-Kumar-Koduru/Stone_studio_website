@@ -1,0 +1,96 @@
+    /* In your main CSS file */
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import "tailwindcss";
+
+/* Tailwind v4 Theme Tokens – ALL YOUR COLORS INCLUDED */ /*#1a1714*/
+@theme {
+  --color-background:"#000000";
+  --color-foreground: #f2eee8;
+  --color-black: #000000;
+
+  --color-card: #1f1b18;
+  --color-card-foreground: #f2eee8;
+  --color-text-dark: "#000000";
+  --color-popover: #1c1916;
+  --color-popover-foreground: #f2eee8;
+
+  --color-primary: #e3d4b8;
+  --color-primary-foreground: #000000;
+
+  --color-secondary: #26221f;
+  --color-secondary-foreground: #f2eee8;
+
+  --color-muted: #26221f;
+  --color-muted-foreground: #9a9387;
+
+  --color-accent: #9c6227;
+  --color-accent-foreground: #000000;
+
+  --color-destructive: #e54343;
+  --color-destructive-foreground: #f2eee8;
+
+  --color-border: #2e2925;
+  --color-input: #24211d;
+  --color-ring: #e6b86a;
+
+  /* Stone Theme (Also kept) */
+  --color-stone-gold: #e6b86a;
+  --color-stone-dark: #000000;
+  --color-stone-darker: #110f0d;
+  --color-stone-light: #f2eee8;
+
+  --shadow-luxury: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 30px rgba(255, 200, 120, 0.2);
+
+  --radius: 0.5rem;
+}
+
+/* Dark Mode Overrides */
+.dark {
+  --color-background: #000000;
+  --color-foreground: #f2eee8;
+}
+
+/* Base Styling */
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+
+  h1, h2, h3, h4, .heading {
+    font-family: "Cinzel", serif;
+  }
+}
+
+/* Prevent horizontal overflow on small devices */
+html, body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior:smooth;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .paused{
+    animation-play-state: paused;
+  }
+  @keyframes loop-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-loop-scroll {
+    animation: loop-scroll 50s linear infinite;
+  }
+};
