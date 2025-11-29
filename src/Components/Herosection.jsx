@@ -12,7 +12,7 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          className="hidden md:block absolute inset-0 w-full h-full object-cover opacity-70 pb-10"
+          className="hidden md:block absolute inset-0 w-full h-full object-cover opacity-30 pb-10"
         />
         {/* Mobile background fallback */}
         <div className="absolute inset-0 w-full h-100 opacity-60 sm:items-center">

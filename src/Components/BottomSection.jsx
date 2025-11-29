@@ -52,7 +52,7 @@ const BottomCard = () => {
             </li>
             <li>
               <a href="#" className="hover:text-accent">
-                Tulasi
+                Tulsi Planter
               </a>
             </li>
             <li>
@@ -62,7 +62,17 @@ const BottomCard = () => {
             </li>
             <li>
               <a href="#" className="hover:text-accent">
-                Wash basin
+                Wash Basin
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Pergola and Benches
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Flooring
               </a>
             </li>
           </ul>

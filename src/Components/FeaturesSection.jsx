@@ -6,12 +6,12 @@ const intialFeatures = mockData.FeatureSections;
 
 const FeatureSection = () => {
   return (
-    <section className="flex flex-col lg:flex-row md:pt-10 gap-3 bg-black w-full">
+    <section className="flex flex-col lg:flex-row md:pt-10 gap-8 bg-black w-full">
       <motion.div
         initial={{ scale: 0.8, translateX: "-50%" }}
         whileInView={{ scale: 1, translateX: "0%" }}
         transition={{ duration: 1, delay: 0.2 }}
-        className="flex flex-col lg:ml-20 lg:items-start lg:text-left h-3xl w-3xl mb:h-2xl mb-4 "
+        className="flex flex-col lg:ml-10 lg:items-start lg:text-left h-3xl w-3xl mb:h-2xl mb-4"
       >
         <img
           src={intialFeatures[0].imageUrl}

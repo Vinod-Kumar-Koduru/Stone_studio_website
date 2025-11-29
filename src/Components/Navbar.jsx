@@ -41,9 +41,11 @@ export default function Navbar() {
     "Idols",
     "Temples",
     "Fiber Art",
-    "Tulasi",
+    "Tulsi Planter",
     "Fountains",
-    "Wash basin",
+    "Wash Basin",
+    "Pergola & Benches",
+    "Flooring",
   ];
 
   return (

@@ -7,7 +7,7 @@ const mockData = {
       description:
         "Handcrafted Buddha Statue set against a terracotta patterned backdrop, bringing peace, elegance, and spiritual harmony to any space.",
       imageUrl:
-        "https://res.cloudinary.com/dl4viyuwh/image/upload/v1763460534/Gemini_Generated_Image_otenejotenejoten-Picsart-AiImageEnhancer_g72ngr.png",
+        "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764333825/IMG-20251117-WA0157_kzknwq.jpg",
       alt: "Terrace Buddha",
     },
     {
@@ -25,7 +25,7 @@ const mockData = {
       id: uuidv4(),
       title: "MURALS",
       image:
-        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763817717/mural_lvttid.jpg",
+        "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764335669/IMG-20251128-WA0012_acgnhu.jpg",
       buttonText: "Contact",
       description:
         "Beautiful carved wall art of Radha Krishna in an elegant white stone finish.",
@@ -35,17 +35,17 @@ const mockData = {
       id: uuidv4(),
       title: "IDOLS",
       image:
-        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763817716/buddha_b1mpqn.jpg",
+        "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764338967/SmartSelect_20230709_150937_Chrome_2_qion0y.jpg",
       buttonText: "Contact",
       description:
-        "Elegant outdoor Buddha statue in meditation pose, perfect for garden and landscape décor.",
+        "Exquisite Vietnam marble Ganesh idol in a benevolent blessing pose, perfect for home entrances and sacred landscape décor.",
       alt: "IDOLS",
     },
     {
       id: uuidv4(),
       title: "Temple",
       image:
-        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1764077140/mandirrrrrrr_unefep.jpg",
+        "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764334148/IMG-20251117-WA0037_gt44im.jpg",
       buttonText: "Contact",
       description:
         "Beautifully carved white marble home temple with intricate pillars, dome design, and traditional Jain Sanskrit engravings",
@@ -55,10 +55,10 @@ const mockData = {
       id: uuidv4(),
       title: "FIBER ART",
       image:
-        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763817716/fiber_art_rb5l49.jpg",
+        "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764335331/IMG-20251128-WA0015_piyksd.jpg",
       buttonText: "Contact",
       description:
-        "Intricate wall art featuring Lord Shiva with geometric and floral detailing.",
+        "High-definition Balaji wall relief in durable fiber, featuring a 3D texture and elaborate floral ornamentation.",
       alt: "FIBER ART",
     },
     {
@@ -73,7 +73,7 @@ const mockData = {
     },
     {
       id: uuidv4(),
-      title: "TULSI KOTA",
+      title: "TULSI PLANTER",
       image:
         "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763817717/tulsi_fqdhn6.jpg",
       buttonText: "Contact",
@@ -95,21 +95,21 @@ const mockData = {
       id: uuidv4(),
       title: "SCUPLTURES",
       image:
-        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1764076880/elephantsssss_kje6ef.jpg",
+        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763817716/buddha_b1mpqn.jpg",
       buttonText: "Contact",
       description:
-        "Stone elephant decor with brass diya and flowers in a natural outdoor setting.",
+        "Elegant outdoor Buddha statue in meditation pose, perfect for garden and landscape décor.",
       alt: "SCULPTURES",
     },
     {
       id: uuidv4(),
-      title: "GRAVEYARDS",
+      title: "Pergolas & Benches",
       image:
-        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763817717/graveyard_nj0xph.png",
+        "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764334500/garden-pergola-seating-Picsart-AiImageEnhancer_qnjipb.jpg",
       buttonText: "Contact",
       description:
-        "Beautifully crafted white marble grave monument with intricate carvings and elegant design.",
-      alt: "GRAVEYARDS",
+        "Exquisitely carved stone pergola featuring fluted columns and elegant built-in seating in a serene garden setting.",
+      alt: "pergolas and benches",
     },
   ],
   Elevations: [

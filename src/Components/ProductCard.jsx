@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const TiltCard = ({ CardDetails }) => {
-  const { image, title } = CardDetails;
+  const { image, title, description } = CardDetails;
 
   const [showDetails, setShowDetails] = useState(false);
 
@@ -37,11 +37,7 @@ const TiltCard = ({ CardDetails }) => {
         "
       >
         <h1 className="text-xl font-semibold mb-2 drop-shadow-lg">{title}</h1>
-
-        <p className="text-sm opacity-90 drop-shadow-lg">
-          Product description goes here. Customize as needed.
-        </p>
-
+        <p className="text-sm opacity-90 drop-shadow-lg">{description}</p>
         <button className="mt-3 bg-accent px-4 py-2 rounded-xl shadow-lg">
           More
         </button>
