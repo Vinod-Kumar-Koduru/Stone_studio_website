@@ -12,7 +12,10 @@ const TiltCard = ({ CardDetails }) => {
     <motion.li
       onClick={toggleMobile} // Mobile & Tablet
       whileHover={() => setShowDetails(true)} // Desktop hover in
-      onHoverEnd={() => setShowDetails(false)} // Desktop hover out
+      onHoverEnd={() => setShowDetails(false)}
+      initial={{ scale: 0.8, opacity: 0 }}
+      whileInView={{ scale: 1, opacity: 1 }}
+      transition={{ duration: 1, delay: 0.2 }} // Desktop hover out
       className="relative w-full rounded-xl cursor-pointer overflow-hidden shadow-xl"
     >
       {/* IMAGE */}

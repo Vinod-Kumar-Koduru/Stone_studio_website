@@ -6,7 +6,7 @@ const BottomFooter = () => {
       <p className="text-center text-sm md:text-base text-gray-700 tracking-wide">
         Copyright © 2025 <span className="font-semibold">Stone Studio</span> |
         Designed &amp; Developed by{" "}
-        <span className="text-[#E64A3A] font-semibold">VK</span>
+        <span className="text-[#E64A3A] font-semibold">VK & Sai</span>
       </p>
     </div>
   );

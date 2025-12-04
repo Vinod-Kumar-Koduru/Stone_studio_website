@@ -11,15 +11,6 @@ const NavLink = ({ children, href = "#" }) => (
     >
       {children}
     </motion.span>
-
-    {/* Gold underline animation */}
-    <motion.span
-      initial={{ scaleX: 0 }}
-      whileHover={{ scaleX: 1 }}
-      transition={{ duration: 0.28 }}
-      style={{ transformOrigin: "left" }}
-      className="absolute left-0 hover:text-accent h-[3px] text-accent"
-    ></motion.span>
   </a>
 );
 
@@ -194,8 +185,9 @@ export default function Navbar() {
                 </AnimatePresence>
               </div>
 
-              <a className="block">Gallery</a>
+              <a className="block">Elevation stones</a>
               <a className="block">Contact</a>
+              <a className="block">About us</a>
             </motion.div>
           )}
         </AnimatePresence>

@@ -1,16 +1,21 @@
-    /* In your main CSS file */
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* ---------------------------------------------------------
+   Imports
+--------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import "tailwindcss";
 
-/* Tailwind v4 Theme Tokens – ALL YOUR COLORS INCLUDED */ /*#1a1714*/
+/* ---------------------------------------------------------
+   Tailwind v4 Theme Tokens
+--------------------------------------------------------- */
 @theme {
-  --color-background:"#000000";
+  --color-background: #000000;
   --color-foreground: #f2eee8;
   --color-black: #000000;
 
   --color-card: #1f1b18;
   --color-card-foreground: #f2eee8;
-  --color-text-dark: "#000000";
+  --color-text-dark: #000000;
+
   --color-popover: #1c1916;
   --color-popover-foreground: #f2eee8;
 
@@ -33,7 +38,7 @@
   --color-input: #24211d;
   --color-ring: #e6b86a;
 
-  /* Stone Theme (Also kept) */
+  /* Stone Theme */
   --color-stone-gold: #e6b86a;
   --color-stone-dark: #000000;
   --color-stone-darker: #110f0d;
@@ -45,46 +50,63 @@
   --radius: 0.5rem;
 }
 
-/* Dark Mode Overrides */
+/* ---------------------------------------------------------
+   Dark Mode Overrides
+--------------------------------------------------------- */
 .dark {
   --color-background: #000000;
   --color-foreground: #f2eee8;
 }
 
-/* Base Styling */
+/* ---------------------------------------------------------
+   Base Styling
+--------------------------------------------------------- */
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
 }
+
 @layer base {
   html {
     font-family: "Inter", sans-serif;
   }
 
-  h1, h2, h3, h4, .heading {
+  h1,
+  h2,
+  h3,
+  h4,
+  .heading {
     font-family: "Cinzel", serif;
   }
 }
 
-/* Prevent horizontal overflow on small devices */
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
+
 html {
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
+/* ---------------------------------------------------------
+   Utilities Layer
+--------------------------------------------------------- */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-  .paused{
+
+  .paused {
     animation-play-state: paused;
   }
+
+  /* LOOP SCROLL ANIMATION */
   @keyframes loop-scroll {
     from {
       transform: translateX(0);
     }
+
     to {
       transform: translateX(-100%);
     }
@@ -93,4 +115,8 @@ html {
   .animate-loop-scroll {
     animation: loop-scroll 50s linear infinite;
   }
-};
+
+  .animate-loop-scroll:hover {
+    animation-play-state: paused;
+  }
+}

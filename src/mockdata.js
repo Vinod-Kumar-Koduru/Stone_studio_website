@@ -111,6 +111,26 @@ const mockData = {
         "Exquisitely carved stone pergola featuring fluted columns and elegant built-in seating in a serene garden setting.",
       alt: "pergolas and benches",
     },
+    {
+      id: uuidv4(),
+      title: "Wash Basin",
+      image:
+        "https://res.cloudinary.com/deaijw2yr/image/upload/v1764682658/Screenshot_2025-12-02_190212-Picsart-AiImageEnhancer_dkrmlv.jpg",
+      buttonText: "Contact",
+      description:
+        "Hand-polished stone basin framed by a subtle textured surface, adding sophistication, serenity, and timeless beauty to any interior.",
+      alt: "Wash Basin",
+    },
+    {
+      id: uuidv4(),
+      title: "Flooring",
+      image:
+        "https://res.cloudinary.com/deaijw2yr/image/upload/v1764681246/Untitled-3-1-Picsart-AiImageEnhancer_dedcyt.jpg",
+      buttonText: "Contact",
+      description:
+        "It brings you sophisticated natural stone flooring that redefines rustic luxury, blending raw, earthy textures with contemporary finesse",
+      alt: "Flooring",
+    },
   ],
   Elevations: [
     {
