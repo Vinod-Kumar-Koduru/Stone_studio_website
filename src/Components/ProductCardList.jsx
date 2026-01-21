@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { React } from "react";
 import TiltCard from "./ProductCard.jsx";
 import mockData from "../mockdata.js";
@@ -8,6 +9,18 @@ const ProductCardList = ({ products: propProducts }) => {
   return (
     <div className="px-4 py-12 bg-gradient-to-bm bg-black">
       <h1 className="text-[1rem] md:text-3xl lg:text-4xl mt-10 mb-10">
+=======
+import React from "react";
+import TiltCard from "./ProductCard.jsx";
+import mockData from "../mockdata.js";
+
+const ProductCardList = () => {
+  const products = mockData?.Products || [];
+
+  return (
+    <div className="px-4 py-12 bg-gradient-to-bm bg-black">
+      <h1 className="text-2xl md:text-4xl lg:text-5xl mt-10 mb-10">
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
         Product Catogary
       </h1>
       <ul

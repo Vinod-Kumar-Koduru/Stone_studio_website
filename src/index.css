@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ---------------------------------------------------------
    Imports
 --------------------------------------------------------- */
@@ -9,13 +10,26 @@
 --------------------------------------------------------- */
 @theme {
   --color-background: #000000;
+=======
+    /* In your main CSS file */
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import "tailwindcss";
+
+/* Tailwind v4 Theme Tokens – ALL YOUR COLORS INCLUDED */ /*#1a1714*/
+@theme {
+  --color-background:"#000000";
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
   --color-foreground: #f2eee8;
   --color-black: #000000;
 
   --color-card: #1f1b18;
   --color-card-foreground: #f2eee8;
+<<<<<<< HEAD
   --color-text-dark: #000000;
 
+=======
+  --color-text-dark: "#000000";
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
   --color-popover: #1c1916;
   --color-popover-foreground: #f2eee8;
 
@@ -38,7 +52,11 @@
   --color-input: #24211d;
   --color-ring: #e6b86a;
 
+<<<<<<< HEAD
   /* Stone Theme */
+=======
+  /* Stone Theme (Also kept) */
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
   --color-stone-gold: #e6b86a;
   --color-stone-dark: #000000;
   --color-stone-darker: #110f0d;
@@ -50,21 +68,30 @@
   --radius: 0.5rem;
 }
 
+<<<<<<< HEAD
 /* ---------------------------------------------------------
    Dark Mode Overrides
 --------------------------------------------------------- */
+=======
+/* Dark Mode Overrides */
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
 .dark {
   --color-background: #000000;
   --color-foreground: #f2eee8;
 }
 
+<<<<<<< HEAD
 /* ---------------------------------------------------------
    Base Styling
 --------------------------------------------------------- */
+=======
+/* Base Styling */
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
 }
+<<<<<<< HEAD
 
 @layer base {
   html {
@@ -94,21 +121,50 @@ html {
 /* ---------------------------------------------------------
    Utilities Layer
 --------------------------------------------------------- */
+=======
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+
+  h1, h2, h3, h4, .heading {
+    font-family: "Cinzel", serif;
+  }
+}
+
+/* Prevent horizontal overflow on small devices */
+html, body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior:smooth;
+}
+
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+<<<<<<< HEAD
 
   .paused {
     animation-play-state: paused;
   }
 
   /* LOOP SCROLL ANIMATION */
+=======
+  .paused{
+    animation-play-state: paused;
+  }
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
   @keyframes loop-scroll {
     from {
       transform: translateX(0);
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
     to {
       transform: translateX(-100%);
     }
@@ -117,8 +173,12 @@ html {
   .animate-loop-scroll {
     animation: loop-scroll 50s linear infinite;
   }
+<<<<<<< HEAD
 
   .animate-loop-scroll:hover {
     animation-play-state: paused;
   }
 }
+=======
+};
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3

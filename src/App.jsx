@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import ElevationsList from "./pages/ElevationStone.jsx";
@@ -18,6 +19,19 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
       </Routes>
     </div>
+=======
+import Home from "./pages/Home.jsx";
+import Navbar from "./Components/Navbar.jsx";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import "./index.css";
+function App() {
+  return (
+    <>
+      <div className="min-h-screen w-full bg-black">
+        <Home />
+      </div>
+    </>
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
   );
 }
 

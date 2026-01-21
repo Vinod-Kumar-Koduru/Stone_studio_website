@@ -5,8 +5,11 @@ import {
   FaInstagram,
   FaPinterest,
 } from "react-icons/fa";
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import slugify from "../utils/slugify";
+=======
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
 const BottomCard = () => {
   return (
     <footer className="w-full bg-white py-16">
@@ -32,6 +35,7 @@ const BottomCard = () => {
           </h3>
 
           <ul className="space-y-2 text-gray-600">
+<<<<<<< HEAD
             {[
               "Murals",
               "Idols",
@@ -56,6 +60,53 @@ const BottomCard = () => {
                 </Link>
               </li>
             ))}
+=======
+            <li>
+              <a href="#" className="hover:text-accent">
+                Murals
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Idols
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Temple
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Fiber Art
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Tulsi Planter
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Fountains
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Wash Basin
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Pergola and Benches
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-accent">
+                Flooring
+              </a>
+            </li>
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
           </ul>
         </div>
 

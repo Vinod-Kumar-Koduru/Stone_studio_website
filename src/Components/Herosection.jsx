@@ -1,19 +1,30 @@
 import React from "react";
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
+=======
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
     <>
+<<<<<<< HEAD
       <section className="relative w-full h-100 overflow-hidden flex items-center justify-center bg-black md:min-h-screen xl:min-h-screen">
+=======
+      <section className="relative w-full h-100 overflow-hidden flex items-center justify-center bg-black md:min-h-screen">
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
         <video
           src="https://res.cloudinary.com/dl4viyuwh/video/upload/v1763291240/Hero_Page_Video_Clip_Generation_yynb9t.mp4"
           alt="handCraft video"
           autoPlay
           loop
           muted
+<<<<<<< HEAD
           className="absolute inset-0 w-full h-full object-cover opacity-30 pb-10"
+=======
+          className="hidden md:block absolute inset-0 w-full h-full object-cover opacity-30 pb-10"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
         />
         {/* Mobile background fallback */}
         <div className="absolute inset-0 w-full h-100 opacity-60 sm:items-center">
@@ -37,6 +48,7 @@ const HeroSection = () => {
             >
               Crafting Luxury in Stone
             </motion.p>
+<<<<<<< HEAD
             <Link to="/products/fiber-art">
               <motion.button
                 className="px-6 sm:px-8 py-2 sm:py-3 border border-stone-gold text-stone-gold font-semibold hover:bg-stone-gold hover:text-stone-dark transition-colors rounded"
@@ -47,6 +59,16 @@ const HeroSection = () => {
                 Explore
               </motion.button>
             </Link>
+=======
+            <motion.button
+              className="px-6 sm:px-8 py-2 sm:py-3 border border-stone-gold text-stone-gold font-semibold hover:bg-stone-gold hover:text-stone-dark transition-colors rounded"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1.2 }}
+            >
+              Explore
+            </motion.button>
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
           </div>
         </div>
         <motion.div

@@ -14,47 +14,83 @@ const Review = () => (
       <img
         loading="lazy"
         src="https://res.cloudinary.com/dbmv3jdwr/image/upload/v1764079139/Screenshot_2025-11-24_161347_xgsymj.png"
+<<<<<<< HEAD
         className="aspect-[1.11] h-80 w-80 object-contain  object-center rounded hover:paused"
+=======
+        className="aspect-[1.11] h-80 w-80 object-contain  object-center rounded"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       />
       <img
         loading="lazy"
         src="https://res.cloudinary.com/dbmv3jdwr/image/upload/v1764079138/Screenshot_2025-11-24_153556_ckx4fh.png"
+<<<<<<< HEAD
         className="aspect-[1.11] h-80 w-80 object-contain object-center rounded hover:paused"
+=======
+        className="aspect-[1.11] h-80 w-80 object-contain object-center rounded"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       />
       <img
         loading="lazy"
         src="https://res.cloudinary.com/dbmv3jdwr/image/upload/v1764079138/Screenshot_2025-11-24_161225_rs2yxu.png"
+<<<<<<< HEAD
         className="aspect-[1.11]  h-80 w-80 object-contain object-center rounded-2xl hover:paused"
+=======
+        className="aspect-[1.11]  h-80 w-80 object-contain object-center rounded-2xl"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       />
       <img
         loading="lazy"
         src="https://res.cloudinary.com/dbmv3jdwr/image/upload/v1764079137/Screenshot_2025-11-24_150611_yen3ec.png"
+<<<<<<< HEAD
         className="aspect-[1.11] h-80 w-80 object-contain object-center rounded-2xl hover:paused"
+=======
+        className="aspect-[1.11] h-80 w-80 object-contain object-center rounded-2xl"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       />
       <img
         loading="lazy"
         src="https://res.cloudinary.com/dbmv3jdwr/image/upload/v1764079138/Screenshot_2025-11-24_161325_bbfniz.png"
+<<<<<<< HEAD
         className="aspect-[1.11] h-80 w-80 object-contain object-center rounded-2xl hover:paused"
+=======
+        className="aspect-[1.11] h-80 w-80 object-contain object-center rounded-2xl"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       />
       <img
         loading="lazy"
         src="https://res.cloudinary.com/dbmv3jdwr/image/upload/v1764079138/Screenshot_2025-11-24_153429_pjfr37.png"
+<<<<<<< HEAD
         className="aspect-[1.11] h-80 w-80 object-contain object-center rounded-2xl hover:paused"
+=======
+        className="aspect-[1.11] h-80 w-80 object-contain object-center rounded-2xl"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       />
       <img
         loading="lazy"
         src="https://res.cloudinary.com/dl4viyuwh/image/upload/v1764242943/Screenshot_2025-11-27_165313_xtardi.png"
+<<<<<<< HEAD
         className="aspect-[1.11] h-80 w-80 object-contain object-center hover:paused"
+=======
+        className="aspect-[1.11] h-80 w-80 object-contain object-center"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       />
       <img
         loading="lazy"
         src="https://res.cloudinary.com/dl4viyuwh/image/upload/v1764242940/Screenshot_2025-11-27_165333_orvqok.png"
+<<<<<<< HEAD
         className="aspect-[1.11] h-80 w-80 object-contain object-center hover:paused"
+=======
+        className="aspect-[1.11] h-80 w-80 object-contain object-center"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       />
       <img
         loading="lazy"
         src="https://res.cloudinary.com/dl4viyuwh/image/upload/v1764242940/Screenshot_2025-11-27_165333_orvqok.png"
+<<<<<<< HEAD
         className="aspect-[1.11] h-80 w-80 object-contain object-center hover:paused"
+=======
+        className="aspect-[1.11] h-80 w-80 object-contain object-center"
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       />
     </div>
   </>

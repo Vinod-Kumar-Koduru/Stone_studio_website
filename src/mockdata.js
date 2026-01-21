@@ -7,7 +7,11 @@ const mockData = {
       description:
         "Handcrafted Buddha Statue set against a terracotta patterned backdrop, bringing peace, elegance, and spiritual harmony to any space.",
       imageUrl:
+<<<<<<< HEAD
         "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764856381/kjg_omkdag.jpg",
+=======
+        "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764333825/IMG-20251117-WA0157_kzknwq.jpg",
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       alt: "Terrace Buddha",
     },
     {
@@ -16,14 +20,22 @@ const mockData = {
       description:
         "It brings you intricately carved marble temples that redefine elegance and devotion, blending heritage designs with contemporary style—perfect for homes, villas, and spiritual spaces. ",
       imageUrl:
+<<<<<<< HEAD
         "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764856379/mandir_tat12z.jpg",
+=======
+        "https://res.cloudinary.com/dl4viyuwh/image/upload/v1763460693/mandir_xm5p4m.jpg",
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       alt: "Temple",
     },
   ],
   Products: [
     {
       id: uuidv4(),
+<<<<<<< HEAD
       title: "Murals",
+=======
+      title: "MURALS",
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       image:
         "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764335669/IMG-20251128-WA0012_acgnhu.jpg",
       buttonText: "Contact",
@@ -33,7 +45,11 @@ const mockData = {
     },
     {
       id: uuidv4(),
+<<<<<<< HEAD
       title: "Idols",
+=======
+      title: "IDOLS",
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       image:
         "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764338967/SmartSelect_20230709_150937_Chrome_2_qion0y.jpg",
       buttonText: "Contact",
@@ -53,7 +69,11 @@ const mockData = {
     },
     {
       id: uuidv4(),
+<<<<<<< HEAD
       title: "Fiber Art",
+=======
+      title: "FIBER ART",
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       image:
         "https://res.cloudinary.com/dl4viyuwh/image/upload/v1764335331/IMG-20251128-WA0015_piyksd.jpg",
       buttonText: "Contact",
@@ -63,9 +83,15 @@ const mockData = {
     },
     {
       id: uuidv4(),
+<<<<<<< HEAD
       title: "Fountains",
       image:
         "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1768591225/ChatGPT_Image_Jan_17_2026_12_47_27_AM_1_svxpxp.png",
+=======
+      title: "FOUNTAINS",
+      image:
+        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763818007/fountain_oztzmk.jpg",
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       buttonText: "Contact",
       description:
         "Elegant marble garden fountain with flowing water, perfect for outdoor décor.",
@@ -73,7 +99,11 @@ const mockData = {
     },
     {
       id: uuidv4(),
+<<<<<<< HEAD
       title: "Tulsi Planter",
+=======
+      title: "TULSI PLANTER",
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       image:
         "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763817717/tulsi_fqdhn6.jpg",
       buttonText: "Contact",
@@ -83,7 +113,21 @@ const mockData = {
     },
     {
       id: uuidv4(),
+<<<<<<< HEAD
       title: "Sculptures",
+=======
+      title: "MODERN ARTS",
+      image:
+        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763817716/modern_art_ioluki.webp",
+      buttonText: "Contact",
+      description:
+        "Minimalistic white marble Ganesha idol, perfect for home décor and gifting.",
+      alt: "MODERN ARTS",
+    },
+    {
+      id: uuidv4(),
+      title: "SCUPLTURES",
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       image:
         "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1763817716/buddha_b1mpqn.jpg",
       buttonText: "Contact",
@@ -101,6 +145,7 @@ const mockData = {
         "Exquisitely carved stone pergola featuring fluted columns and elegant built-in seating in a serene garden setting.",
       alt: "pergolas and benches",
     },
+<<<<<<< HEAD
     {
       id: uuidv4(),
       title: "Wash Basin",
@@ -995,6 +1040,8 @@ const mockData = {
         },
       ],
     },
+=======
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
   ],
   Elevations: [
     {
@@ -1078,6 +1125,7 @@ const mockData = {
       alt: "Customer Review 7",
     },
   ],
+<<<<<<< HEAD
   elevationData: [
     {
       id: uuidv4(),
@@ -1116,5 +1164,7 @@ const mockData = {
         "https://res.cloudinary.com/dl4viyuwh/image/upload/v1765973522/Gemini_Generated_Image_a8dmuqa8dmuqa8dm_1_dmj1na.png",
     },
   ],
+=======
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
 };
 export default mockData;

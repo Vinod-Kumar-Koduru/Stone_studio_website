@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 import slugify from "../utils/slugify";
+=======
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
 
 const TiltCard = ({ CardDetails }) => {
   const { image, title, description } = CardDetails;
 
   const [showDetails, setShowDetails] = useState(false);
+<<<<<<< HEAD
   const navigate = useNavigate();
 
   const toggleMobile = () => setShowDetails(!showDetails);
@@ -17,14 +21,23 @@ const TiltCard = ({ CardDetails }) => {
     navigate(`/products/${slugify(CardDetails.title)}`);
   };
 
+=======
+
+  const toggleMobile = () => setShowDetails(!showDetails);
+
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
   return (
     <motion.li
       onClick={toggleMobile} // Mobile & Tablet
       whileHover={() => setShowDetails(true)} // Desktop hover in
+<<<<<<< HEAD
       onHoverEnd={() => setShowDetails(false)}
       initial={{ scale: 0.8, opacity: 0 }}
       whileInView={{ scale: 1, opacity: 1 }}
       transition={{ duration: 1, delay: 0.2 }} // Desktop hover out
+=======
+      onHoverEnd={() => setShowDetails(false)} // Desktop hover out
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
       className="relative w-full rounded-xl cursor-pointer overflow-hidden shadow-xl"
     >
       {/* IMAGE */}
@@ -50,10 +63,14 @@ const TiltCard = ({ CardDetails }) => {
       >
         <h1 className="text-xl font-semibold mb-2 drop-shadow-lg">{title}</h1>
         <p className="text-sm opacity-90 drop-shadow-lg">{description}</p>
+<<<<<<< HEAD
         <button
           onClick={goToDetail}
           className="mt-3 bg-accent px-4 py-2 rounded-xl shadow-lg"
         >
+=======
+        <button className="mt-3 bg-accent px-4 py-2 rounded-xl shadow-lg">
+>>>>>>> 5ebe06c890e2f351e74fb86cc61e375821ed4ff3
           More
         </button>
       </motion.div>
