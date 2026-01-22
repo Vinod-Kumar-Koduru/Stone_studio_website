@@ -177,7 +177,7 @@ const mockData = {
       id: uuidv4(),
       title: "idols",
       displayImgurl:
-        "https://res.cloudinary.com/deaijw2yr/image/upload/v1767426224/Gemini_Generated_Image_n2gk81n2gk81n2gk_libm97.png",
+        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1768813637/ChatGPT_Image_Jan_19_2026_02_37_11_PM_svkzht.png",
       items: [
         {
           id: uuidv4(),
@@ -282,7 +282,7 @@ const mockData = {
           id: uuidv4(),
           title: "Mini Temple",
           image:
-            "https://res.cloudinary.com/deaijw2yr/image/upload/v1769016950/PHOTO-2021-10-09-09-59-12-Picsart-AiImageEnhancer_boibxr.jpg",
+            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1769080508/temple1_cbibv1.jpg",
           alt: "Mini Temple",
         },
         {
@@ -382,7 +382,7 @@ const mockData = {
           id: uuidv4(),
           title: "Garden Fountain",
           image:
-            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1767618784/5_pwqbxi.png",
+            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1768811674/fountain_1_b8aedi.png",
           alt: "Garden Fountain",
         },
         {
@@ -503,14 +503,14 @@ const mockData = {
           id: uuidv4(),
           title: "Minimal Ganesha",
           image:
-            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1767180360/2222_dh6pmk.jpg",
+            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1768811674/Gemini_Generated_Image_pk6h4zpk6h4zpk6h_b67o8i.png",
           alt: "Minimal Ganesha",
         },
         {
           id: uuidv4(),
           title: "Minimal Ganesha",
           image:
-            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1767180359/3333_sptyiq.jpg",
+            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1768811673/WhatsApp_Image_2026-01-19_at_12.56.07_PM_1_nkgirj.jpg",
           alt: "Minimal Ganesha",
         },
         {
@@ -553,7 +553,7 @@ const mockData = {
           id: uuidv4(),
           title: "Stone Pergola",
           image:
-            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1767620510/4_ousg4h.jpg",
+            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1768812971/Gemini_Generated_Image_5h4f5s5h4f5s5h4f_xxtuq7.png",
           alt: "Stone Pergola",
         },
         {
@@ -584,13 +584,20 @@ const mockData = {
             "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1767620505/2_axrnwh.jpg",
           alt: "Stone Pergola",
         },
+        {
+          id: uuidv4(),
+          title: "Stone Pergola",
+          image:
+            "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1768811674/WhatsApp_Image_2026-01-19_at_12.56.08_PM_1_dkbsop.jpg",
+          alt: "Stone Pergola",
+        },
       ],
     },
     {
       id: uuidv4(),
       title: "Wash Basin",
       displayImgurl:
-        "https://res.cloudinary.com/deaijw2yr/image/upload/v1764682658/Screenshot_2025-12-02_190212-Picsart-AiImageEnhancer_dkrmlv.jpg",
+        "https://res.cloudinary.com/dbmv3jdwr/image/upload/v1768815130/ChatGPT_Image_Jan_19_2026_03_01_53_PM_rfsqwa.png",
       items: [
         {
           id: uuidv4(),

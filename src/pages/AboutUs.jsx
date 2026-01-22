@@ -122,9 +122,9 @@ const AboutUs = () => {
             className="flex justify-center"
           >
             <img
-              src="https://res.cloudinary.com/dl4viyuwh/image/upload/v1765868826/images_duebcv.jpg"
+              src="https://res.cloudinary.com/dbmv3jdwr/image/upload/v1768814664/WhatsApp_Image_2026-01-19_at_2.50.35_PM_iegyfh.jpg"
               alt="Founder"
-              className="w-full h-full lg:w-[100rem] lg:h-[18rem] object-fit shadow-lg"
+              className="w-full h-full lg:w-[100rem] lg:h-[20rem] object-fit shadow-lg rounded-md"
             />
           </motion.div>
         </div>
