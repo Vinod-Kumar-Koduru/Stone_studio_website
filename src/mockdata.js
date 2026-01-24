@@ -99,7 +99,7 @@ const mockData = {
       buttonText: "Contact",
       description:
         "Exquisitely carved stone pergola featuring fluted columns and elegant built-in seating in a serene garden setting.",
-      alt: "pergolas and benches",
+      alt: "Pergolas & Benches",
     },
     {
       id: uuidv4(),

@@ -40,8 +40,7 @@ const BottomCard = () => {
               "Tulsi Planter",
               "Fountains",
               "Wash Basin",
-              "Pergola and Benches",
-              "Flooring",
+              "Pergolas & Benches",
             ].map((name) => (
               <li key={name}>
                 <Link
